@@ -56,3 +56,13 @@ if st.button("価格を診断する (Calculate)"):
         st.error("注意：解約率が高すぎるか、成長率が低すぎます。")
     else:
         st.info("標準的な価格です。解約率を下げると価値が上がります。")
+
+st.sidebar.markdown("---")
+st.sidebar.subheader("About Maker 🇯🇵")
+st.sidebar.write("Hi! I'm a student developer from Japan. I'm building this tool to help indie hackers.")
+
+# あなたのSNSリンク（今は仮のリンクですが、後で自分のURLに変えてください）
+if st.sidebar.button("Contact on X (Twitter)"):
+    st.sidebar.markdown("[Click here to DM me!](https://twitter.com/)")
+    
+st.sidebar.info("🚧 This is an MVP. Feedback is welcome!")
